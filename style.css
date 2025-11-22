@@ -1,0 +1,21 @@
+body {
+    font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
+}
+
+section#otf {
+    font-family: "Libertinus OTF";
+}
+
+section#woff2 {
+    font-family: "Libertinus WOFF2";
+}
+
+@font-face {
+    font-family: "Libertinus OTF";
+    src: url("libertinus-7.051/OTF/LibertinusSerif-Regular.otf") format(opentype);
+}
+
+@font-face {
+    font-family: "Libertinus WOFF2";
+    src: url("libertinus-7.051/WOFF2/LibertinusSerif-Regular.woff2") format(woff2);
+}
